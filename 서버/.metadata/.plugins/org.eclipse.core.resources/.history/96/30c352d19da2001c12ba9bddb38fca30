@@ -1,0 +1,5 @@
+package com.shotline.test.config;
+
+public class WebConfig {
+
+}
