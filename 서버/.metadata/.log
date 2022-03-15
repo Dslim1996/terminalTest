@@ -1,4 +1,4 @@
-!SESSION 2022-03-13 14:40:55.000 -----------------------------------------------
+!SESSION 2022-03-14 10:07:01.565 -----------------------------------------------
 eclipse.buildId=4.11.0.202106180608
 java.version=16.0.1
 java.vendor=Oracle Corporation
@@ -6,15 +6,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
-!ENTRY org.eclipse.jface 2 0 2022-03-13 14:44:04.688
+!ENTRY org.eclipse.jface 2 0 2022-03-14 10:07:19.023
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-13 14:44:04.688
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-14 10:07:19.023
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59831016,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@446cc036,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -22,91 +22,901 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@37f71e8,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33b2ba25,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2022-03-13 14:44:13.675
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-14 10:07:21.779
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\ging3'. If this is
+user global configuration and to define the default location to store repositories: 'C:\Users\USER'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY Activator 1 0 2022-03-13 14:50:58.485
+!ENTRY Activator 1 0 2022-03-14 10:09:30.617
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 14:51:27.927
+!ENTRY Activator 1 0 2022-03-14 10:09:37.975
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:17.742
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:22.924
 !MESSAGE Entering DelegatingStreamConnectionProvider()
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:17.743
-!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@50ab5231[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:22.924
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@164aba76[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:17.753
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:22.926
 !MESSAGE SpringBootLanguageServer exists!
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:17.906
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:22.937
 !MESSAGE Instantiating ReusableClasspathListenerHandler
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:24.291
-!MESSAGE Boot LS startup time from start to initialized: 6532ms
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:24.154
+!MESSAGE Boot LS startup time from start to initialized: 1225ms
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:24.420
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GzNtSEODisBatched = true
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:24.215
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VAXorUOSisBatched = true
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:24.424
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:24.218
 !MESSAGE Setting up ClasspathListenerManager
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:24.427
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:24.220
 !MESSAGE Scheduling initial event for all projects ...
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:24.428
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:24.220
 !MESSAGE Scheduling initial event for all projects DONE
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:24.428
-!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GzNtSEOD => OK
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:24.221
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VAXorUOS => OK
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:24.429
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:24.221
 !MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:24.437
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:24.227
 !MESSAGE classpath=66 entries
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:24.440
-!MESSAGE buffering callback sts4.classpath.GzNtSEOD demo false 66
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:24.230
+!MESSAGE buffering callback sts4.classpath.VAXorUOS demo false 66
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:24.441
-!MESSAGE executing callback sts4.classpath.GzNtSEOD 1 batched events
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:24.231
+!MESSAGE executing callback sts4.classpath.VAXorUOS 1 batched events
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 15:37:24.800
-!MESSAGE executing callback sts4.classpath.GzNtSEOD SUCCESS [done]
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 10:11:24.485
+!MESSAGE executing callback sts4.classpath.VAXorUOS SUCCESS [done]
 
-!ENTRY org.eclipse.ui 2 2 2022-03-13 15:54:41.353
+!ENTRY Activator 1 0 2022-03-14 10:17:59.144
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:17:59.676
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:18:40.018
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:18:40.547
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:19:02.539
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:19:03.521
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:19:26.116
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:19:26.636
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:20:00.496
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:20:01.506
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:24:03.563
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:24:04.333
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:25:48.250
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:25:48.774
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:44:24.993
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:44:25.570
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:44:38.190
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:44:38.714
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:54:00.894
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:54:01.417
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:56:29.599
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:56:30.120
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:56:45.327
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:56:45.848
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:56:56.402
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:56:56.923
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:57:09.673
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 10:57:10.380
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:01:29.835
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:01:30.361
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:02:52.062
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:02:52.585
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:04:39.549
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:04:40.070
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:21:53.255
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:21:53.775
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:23:07.273
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:23:07.858
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:23:53.377
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:23:54.136
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:24:28.068
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:24:28.678
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:25:56.147
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:25:56.669
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:29:26.511
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:29:27.047
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:30:02.954
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 11:30:03.492
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.eclipse.ui 2 2 2022-03-14 14:15:12.404
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
 
-!ENTRY Activator 1 0 2022-03-13 15:54:50.432
+!ENTRY Activator 1 0 2022-03-14 14:15:44.427
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 15:54:50.910
+!ENTRY Activator 1 0 2022-03-14 14:15:44.947
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 15:55:31.703
+!ENTRY Activator 1 0 2022-03-14 14:32:34.955
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 15:55:31.837
+!ENTRY Activator 1 0 2022-03-14 14:32:35.530
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 15:58:44.777
+!ENTRY Activator 1 0 2022-03-14 14:32:59.521
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 15:58:45.341
+!ENTRY Activator 1 0 2022-03-14 14:33:00.096
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY org.eclipse.lsp4e 2 0 2022-03-13 15:59:10.389
+!ENTRY Activator 1 0 2022-03-14 14:34:23.888
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:34:24.407
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:34:29.029
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:34:29.550
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:35:05.058
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:35:05.628
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:35:45.171
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:35:45.278
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:35:57.703
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:35:57.809
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:36:02.959
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:36:03.479
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:36:06.568
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:36:07.091
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:09.896
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VAXorUOS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:09.896
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.VAXorUOS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:09.896
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:09.896
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VAXorUOS => OK
+
+!ENTRY Activator 1 0 2022-03-14 14:36:25.378
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:36:25.500
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:34.044
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:34.044
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@164aba76[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:34.044
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:35.136
+!MESSAGE Boot LS startup time from start to initialized: 1091ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:35.181
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PwnGGvllisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:35.181
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:35.181
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:35.182
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:35.182
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:35.182
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PwnGGvll => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:35.185
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:35.186
+!MESSAGE buffering callback sts4.classpath.PwnGGvll demo false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:35.187
+!MESSAGE executing callback sts4.classpath.PwnGGvll 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 14:36:35.377
+!MESSAGE executing callback sts4.classpath.PwnGGvll SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-03-14 14:45:56.811
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:45:57.333
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:46:43.723
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:46:44.248
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:47:53.733
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:47:54.304
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:52:03.474
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:52:03.993
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:54:21.516
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:54:22.036
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:54:42.740
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:54:43.313
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:55:16.281
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:55:16.803
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:55:29.704
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 14:55:30.224
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:04:19.599
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:04:20.120
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:04:52.442
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:04:52.964
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:05:15.115
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:05:15.689
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:05:37.080
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:05:37.653
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:05:55.291
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:05:55.899
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:06:49.086
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:06:49.604
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:09:21.257
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:09:21.830
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:09:49.121
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:09:49.642
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:10:10.056
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:10:10.850
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:10:35.450
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:10:35.974
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:12:16.412
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:12:16.932
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:12:51.976
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:12:52.699
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:15:00.975
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:15:01.503
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:16:26.053
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:16:26.925
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:18:52.418
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:18:53.043
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:20:16.813
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:20:17.357
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:44:37.070
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:44:37.591
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:45:53.086
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:45:54.002
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:47:22.403
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:47:22.923
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:48:10.055
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:48:10.623
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:52:07.469
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:52:08.232
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:58:14.812
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 15:58:15.385
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:01:42.903
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:01:43.476
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:02:14.996
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:02:15.517
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:03:42.812
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:03:43.381
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:03:54.553
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:03:55.076
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:07:10.332
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:07:10.855
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:09:27.851
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:09:28.376
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:09:45.344
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:09:45.862
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:10:16.417
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:10:16.939
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:11:19.120
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:11:19.648
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:11:38.966
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:11:39.535
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:12:33.208
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:12:33.726
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:12:44.209
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:12:45.043
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:15:06.162
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:15:06.680
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:20:59.009
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:20:59.579
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:21:05.088
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:21:05.659
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:21:06.272
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:21:07.240
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:21:55.243
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:21:55.817
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:26:58.750
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:26:59.579
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:27:42.353
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:27:42.878
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:28:27.797
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:28:28.550
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:28:30.504
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:28:31.022
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:29:43.212
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:29:43.735
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:30:22.927
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:30:23.707
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:31:26.046
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:31:26.572
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:31:37.141
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:31:37.661
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:32:18.585
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:32:19.269
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:32:57.501
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:32:58.068
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:33:13.756
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:33:14.367
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:33:29.975
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:33:30.685
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:34:14.589
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:34:15.256
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:34:55.126
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:34:55.649
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:35:07.767
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 16:35:08.602
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:50:04.563
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:50:05.140
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:51:14.560
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:51:15.080
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:53:30.448
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:53:30.968
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:53:41.721
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:53:42.240
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:55:02.159
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:55:02.678
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:55:27.069
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:55:27.954
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:55:46.287
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:55:46.858
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:59:37.405
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 19:59:38.371
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:00:10.895
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:00:11.555
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:01:21.991
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:01:22.973
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:08:32.759
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:08:33.705
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:08:42.943
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:08:43.743
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:19:59.387
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:19:59.955
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:21:35.006
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:21:35.523
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:21:53.463
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:21:53.981
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:23:09.533
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:23:10.053
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:23:50.186
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:23:50.708
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:37:25.108
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:37:25.630
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:53:55.192
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:53:55.765
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:55:54.022
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:55:54.545
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:56:46.774
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:56:47.295
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:57:33.288
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 20:57:33.856
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:00:52.520
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:00:53.038
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:01:06.543
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:01:07.113
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:03:20.668
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:03:21.193
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:04:39.731
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:04:40.253
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:05:25.942
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:05:26.512
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:06:51.630
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:06:52.148
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:08:58.428
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:08:58.947
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:13:15.170
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:13:15.694
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:15:09.684
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:15:10.207
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:15:42.776
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-14 21:15:43.299
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-03-14 21:16:19.621
 !MESSAGE Javadoc unavailable. Failed to obtain it.
 !STACK 0
 java.lang.InterruptedException
@@ -118,85 +928,426 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
 
-!ENTRY Activator 1 0 2022-03-13 15:59:35.653
+!ENTRY Activator 1 0 2022-03-14 21:16:34.566
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 15:59:36.244
+!ENTRY Activator 1 0 2022-03-14 21:16:35.138
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:14:05.131
+!ENTRY Activator 1 0 2022-03-14 21:16:49.867
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:14:05.716
+!ENTRY Activator 1 0 2022-03-14 21:16:50.385
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:16:32.726
+!ENTRY Activator 1 0 2022-03-14 21:16:53.481
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:16:32.846
+!ENTRY Activator 1 0 2022-03-14 21:16:54.001
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:16:49.556
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 21:17:36.033
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PwnGGvll
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 21:17:36.033
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.PwnGGvll
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 21:17:36.033
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-14 21:17:36.034
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PwnGGvll => OK
+!SESSION 2022-03-15 09:51:58.719 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-03-15 09:57:46.987
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-15 09:57:46.987
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4d964c9e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42172065,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:50.056
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:50.056
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7745820b[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:50.058
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:50.090
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2022-03-15 09:57:51.232
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:16:50.138
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-15 09:57:51.271
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\USER'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:52.180
+!MESSAGE Boot LS startup time from start to initialized: 2117ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:52.252
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ALmqGeVnisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:52.255
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:52.256
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:52.257
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:52.257
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ALmqGeVn => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:52.257
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:52.266
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:52.268
+!MESSAGE buffering callback sts4.classpath.ALmqGeVn demo false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:52.268
+!MESSAGE executing callback sts4.classpath.ALmqGeVn 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 09:57:52.546
+!MESSAGE executing callback sts4.classpath.ALmqGeVn SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-03-15 12:35:36.487
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:18:44.743
+!ENTRY Activator 1 0 2022-03-15 12:35:37.057
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:18:45.639
+!ENTRY Activator 1 0 2022-03-15 13:01:25.790
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:19:04.863
+!ENTRY Activator 1 0 2022-03-15 13:01:26.317
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:19:05.840
+!ENTRY Activator 1 0 2022-03-15 13:16:34.626
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:19:47.817
+!ENTRY Activator 1 0 2022-03-15 13:16:35.149
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:19:48.393
+!ENTRY Activator 1 0 2022-03-15 13:19:49.891
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:20:35.667
+!ENTRY Activator 1 0 2022-03-15 13:19:50.413
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:20:36.451
+!ENTRY Activator 1 0 2022-03-15 13:20:40.890
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:23:44.922
+!ENTRY Activator 1 0 2022-03-15 13:20:41.462
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 16:23:45.589
+!ENTRY Activator 1 0 2022-03-15 13:21:21.776
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:01:22.213
+!ENTRY Activator 1 0 2022-03-15 13:21:22.300
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:01:22.796
+!ENTRY Activator 1 0 2022-03-15 13:21:47.367
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:02:36.827
+!ENTRY Activator 1 0 2022-03-15 13:21:48.149
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:02:37.409
+!ENTRY Activator 1 0 2022-03-15 13:22:46.362
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:11:35.380
+!ENTRY Activator 1 0 2022-03-15 13:22:47.384
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:11:35.969
+!ENTRY Activator 1 0 2022-03-15 13:23:27.492
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:11:47.634
+!ENTRY Activator 1 0 2022-03-15 13:23:28.288
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:11:48.218
+!ENTRY Activator 1 0 2022-03-15 13:23:40.994
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY org.eclipse.lsp4e 2 0 2022-03-13 18:15:47.517
+!ENTRY Activator 1 0 2022-03-15 13:23:41.563
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:24:55.816
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:24:56.337
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:27:03.114
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:27:03.635
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:27:23.050
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:27:23.574
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:27:25.979
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:27:26.632
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:37:42.262
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:37:43.124
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:38:29.745
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:38:30.628
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:40:07.312
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:40:07.838
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:40:37.236
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:40:37.756
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:40:53.064
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:40:53.637
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:41:05.872
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:41:06.585
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:43:37.597
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:43:38.119
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:47:39.390
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:47:39.916
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:53:34.974
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:53:35.548
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:56:47.677
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:56:48.253
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:59:43.815
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 13:59:44.387
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:03:19.258
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:03:19.782
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:06:18.908
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:06:19.816
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:51:11.822
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:51:12.342
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:51:39.322
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:51:39.843
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:52:17.763
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:52:18.285
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:52:49.372
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:52:49.897
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:58:07.204
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:58:07.726
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:58:59.524
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 15:59:00.332
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:00:48.371
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:00:48.950
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:01:05.976
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:01:06.609
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:03:06.907
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:03:07.482
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:04:26.314
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:04:26.883
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:07:35.851
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:07:36.373
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:11:10.427
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:11:11.244
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:11:50.976
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:11:51.498
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:12:24.003
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:12:24.525
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:12:47.872
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:12:48.410
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:14:28.136
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:14:28.836
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:17:36.268
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:17:36.842
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:18:53.199
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:18:53.911
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:19:11.688
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:19:12.484
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:19:44.603
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:19:45.180
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:20:50.734
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:20:51.258
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:20:54.094
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:20:54.827
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:21:19.978
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:21:20.838
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:22:25.518
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:22:26.231
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-03-15 16:23:45.197
 !MESSAGE Javadoc unavailable. Failed to obtain it.
 !STACK 0
 java.lang.InterruptedException
@@ -208,18 +1359,1010 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
 
-!ENTRY org.eclipse.ui 4 0 2022-03-13 18:19:15.349
-!MESSAGE Unhandled event loop exception
+!ENTRY Activator 1 0 2022-03-15 16:24:33.207
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:24:33.727
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:28:01.813
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:28:02.389
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:28:19.420
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:28:19.944
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:29:41.532
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:29:42.051
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:30:33.238
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:30:33.809
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:33:14.117
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:33:14.698
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:45:47.821
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:45:48.342
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:46:01.466
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:46:02.249
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:46:19.618
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:46:20.455
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:49:33.347
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:49:34.204
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:50:36.980
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:50:37.505
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:51:10.821
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:51:11.486
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:52:58.376
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:52:58.919
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:53:00.114
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:53:00.987
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:54:33.821
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:54:34.567
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:54:48.546
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:54:49.072
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:54:57.676
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:54:58.410
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:57:28.546
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 16:57:29.116
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:09:50.561
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:09:51.083
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:16:06.887
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:16:07.759
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:21:36.277
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:21:36.797
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:21:58.820
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:21:59.339
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:22:50.901
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:22:51.792
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:24:03.061
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:24:03.859
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:24:50.108
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:24:50.852
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:25:17.838
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:25:18.412
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:26:10.923
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:26:11.494
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:26:33.084
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:26:33.605
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:27:38.324
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:27:38.847
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:30:07.964
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:30:08.488
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:45:52.062
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:45:52.697
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:49:02.400
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:49:02.972
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:49:21.543
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:49:22.064
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:56:33.393
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:56:33.965
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:57:17.711
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:57:18.400
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:57:33.731
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 17:57:34.253
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:01:38.793
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:01:39.374
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:02:44.952
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:02:45.472
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:03:46.216
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:03:46.786
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-03-15 18:07:00.226
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package kr.shotline.rowdata.controller;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CdataGeneratorController {
+
+	@GetMapping("/cdata")
+	String makecdata() {
+		
+		int shot;
+		
+		//카운터명 
+		String[] counterId = {"LCM2020M10001", "LCM2020M10002", "LCM2020M10003", "LCM2020M10004", "LCM2020M10005", "LCM2020M10006","LCM2020M10007", "LCM2020M10008","LCM2020M10009", "LCM2020M10010", "LCM2020M10011","LCM2020M10012", "LCM2020M10013", "LCM2020M10014", "LCM2020M10015" };
+		List<String> timeList = new ArrayList<>();
+		List<String> firstShotTimeList = new ArrayList<>();
+		
+		//ct정수 15개 생성//////////////////////////
+		//ct소수 15개 생성//////////////////////////
+		int[] number = new int[15];		
+		int[] decimalPoint = new int[15];
+		
+		for(int i = 0; i < 15; i++) {
+			//6~8
+			number[i] = (int)((Math.random() * 3) + 6);
+			decimalPoint[i] = (int)((Math.random() * 5) + 0);
+			//0~4
+		}
+				
+		for(int i = 0; i < 15; i++){
+			System.out.print(number[i] + " ");
+		}
+		System.out.println();
+		
+		for(int i = 0; i < 15; i++){
+			System.out.print(decimalPoint[i] + " ");
+		}
+		System.out.println();
+		//////////////////////////////////////////
+		
+		//출력될 C/T 최대 개수 = 정기통신마다 변경
+		int ctMaxCounter;
+		//C/T 오차 범위
+		int errorRange;
+		//CT list
+		List<String> ctDatas = new ArrayList<>();
+		
+		//ct값 저장
+		Set<String> ctDataSet = new TreeSet<String>();
+		
+		
+		//final ct/shot row data
+		Map<String, Integer> ctAndShotRowDatas = new HashMap<>();
+		
+		//tempRowDatas
+		List<String> tempRowDatas = new ArrayList<>();
+		
+		double timeGap = 0;
+		for(int t = 0; t < 1; t++) {
+			System.out.println();
+			
+	        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
+			String dTime = "20210315080000";
+	        
+			
+//	        System.out.println ("시작시간 : " + dTime);
+	        Date date = null;
+			try {
+				date = simpleDateFormat.parse(dTime);
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+//			System.out.println ("시작시간 : " + date);
+	        Calendar cal = Calendar.getInstance();
+	        cal.setTime(date);
+	        
+	        double second = 0.000; // 2초
+	        
+	        for(int a = 0; a < 15; a++) {
+	        	firstShotTimeList.add(simpleDateFormat.format(cal.getTime()));
+	        }
+	        
+//	        System.out.println("firstShotTimeList" + firstShotTimeList);
+	        
+	        //수신주기 세팅
+	        if(t >= 0) {
+	        	timeGap += 3600.000;
+	        	cal.add(Calendar.SECOND, (int) timeGap);
+	        }
+	        
+	        for(int a = 0; a < 15; a++) {
+	        	timeList.add(simpleDateFormat.format(cal.getTime()));
+	        }
+//	        System.out.println(t + " 시작");
+			//여기서 시작시간 세팅
+			
+		//ct생성 
+		for(int i =0 ; i < decimalPoint.length; i++) {
+			
+			//0~4
+			ctMaxCounter = (int)((Math.random() * 4));
+//			System.out.println("출력될 C/T 최대 가짓수" + ctMaxCounter);
+			
+			//랜덤 선택 수
+			int baseCt = Integer.valueOf(number[i] + "" + decimalPoint[i]);
+			double fbaseCt = Math.round((baseCt*0.1) * 100)/100.0;
+			
+			System.out.println("baseCt(int) " + baseCt + "::" + "fbaseCt(float) " + fbaseCt);
+			
+			//shot
+//			shot = Math.round(600/ctNum);
+			shot = (int) Math.ceil(36000/baseCt);
+			
+//			System.out.println("shot : " + shot);
+			
+//			for(int a = 0; a < 10; a++) {
+//				//0~2
+//				System.out.println("randan test : " + (int)(Math.random() * 3));
+//			}
+//			for(int a = 0; a < 10; a++) {
+//				System.out.println("randan test : " + (int)((Math.random() * 5) + 0));
+//			}
+			
+			
+			//shot 당 ct생성
+			for(int j = 0; j < shot; j++) {
+				errorRange = (int)((Math.random() * 4));
+				
+				(int) Math.random() * 10
+				
+				ctDatas.add(Integer.toString(number[i]) + (decimalPoint[i] + errorRange));
+//				ctDatas.add(baseCt);
+			}
+//			System.out.println("ctDatas" + ctDatas);
+			
+			//shot 당 ct 중복제거
+			for(int h = 0; h < ctDatas.size(); h++) {
+				ctDataSet.add(ctDatas.get(h));
+			}
+//			System.out.println("CT set" + ctDataSet);
+			
+			//중복제거된 ct 항목별 카운트 후 ct shot 맵핑
+			int counter;
+			for(String ctTemp : ctDataSet) {
+				counter = 0;
+				for(String ctData : ctDatas) {
+					if(ctTemp.equals(ctData)) {
+						counter++;
+					}
+				}
+//				shotDatas.add(counter);
+//				System.out.println(ctTemp + " " + counter);
+				ctAndShotRowDatas.put(ctTemp, counter);
+			}
+			
+			String ctAndShotRowData = "";
+			int num = 0;
+			Iterator<String> keys = ctAndShotRowDatas.keySet().iterator();
+			int totalCountTime = 0;
+			
+			//ct.shot 전체 시간 계산
+			for(String key: ctAndShotRowDatas.keySet()) {
+				totalCountTime += Integer.valueOf(key)*ctAndShotRowDatas.get(key);
+//				System.out.println("totalCountTime????" + totalCountTime);
+			}
+
+//			System.out.println("totalCountTime" + totalCountTime);
+			
+			int subtractCount = 0;
+			if(totalCountTime > 36000) {
+				while(totalCountTime > 36000) {
+					totalCountTime -= (int)(baseCt) ;
+//					System.out.println("ctAndShotRowDatas.get(String.valueOf((int)(baseCt)))" + ctAndShotRowDatas.get(String.valueOf((int)(baseCt))));
+					ctAndShotRowDatas.put(String.valueOf((int)(baseCt)), ctAndShotRowDatas.get(String.valueOf((int)(baseCt))) -1);
+					subtractCount++;
+				}				
+//				System.out.println("초과 카운터" + subtractCount );
+				shot -= subtractCount;
+			}
+			
+//			System.out.println("totalCountTime" + Math.round((totalCountTime*0.1) * 100)/100.0);
+//			System.out.println("totalCountTime" + totalCountTime);
+			
+			//ct/shot data포멧 정리
+//			System.out.println("ctAndShotRowData" + ctAndShotRowDatas);
+			while(keys.hasNext() || num < 10) {
+				if(keys.hasNext()) {
+					String key = keys.next();
+					ctAndShotRowData += key + "/" + ctAndShotRowDatas.get(key);					
+				}else {
+					ctAndShotRowData += "*" + "/" + "*";
+				}
+				
+				if(num != 9) {
+					ctAndShotRowData += "/";
+				}
+				
+				num++;
+			}
+			
+//			System.out.println("진짜 shot" + shot);
+			
+			Date lastShotTime = null;
+			
+			try {
+				lastShotTime = simpleDateFormat.parse(timeList.get(i));
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+			cal.setTime(lastShotTime);
+			cal.add(Calendar.SECOND, -3600);
+			cal.add(Calendar.SECOND, (int)(totalCountTime*0.1));
+			
+//			System.out.println("simpleDateFormat.format(cal.getTime())" + simpleDateFormat.format(cal.getTime()) + " " + timeList.get(i));
+			
+			String smapleCdata = "at=CDATA&id="
+					+ "LTM2020KRL001" // 터미널변경
+					+ "/"
+					+ counterId[i]  //카운터변경 ccm
+					+ "&sc="
+					+ "40" // 변경
+					+ "&time="
+					+ simpleDateFormat.format(cal.getTime())// 변경 lastshottime
+					+ "/"
+					+ timeList.get(i) // 변경 수신시간
+					+ "&ci=N/"
+					+ "63" // 변경???
+					+ "/H&ctt="
+					+ ctAndShotRowData // 중요변경
+					+ "&rmi=1/0/19700101015959/19700101015959/Y&temp="
+					+ "*/*/*/*/*/"    // 변경 온도 c/t와 비슷
+					+ "20220310030302" // 변경온도 시각?
+					+ "/203&ei=22/N&sn=00524";  //2 시작 +2
+			
+			System.out.println("smapleCdata : " + smapleCdata);
+			
+			cal.clear();
+			ctAndShotRowDatas.clear();
+//			shotDatas.clear();
+			ctDatas.clear();
+			ctDataSet.clear();
+		}
+		System.out.println();
+		//다음시간 세팅?
+		timeList.clear();
+		}
+		
+//		List<Integer> shotlist = new ArrayList<Integer>();
+
+		
+//		for(int i = 0; i < shot; i++) {
+//			errorRange = (int)((Math.random() * CTNumber));
+//			shotlist.add(decimalPoint + errorRange);
+//		}		
+//		System.out.println("shotlist" + shotlist);
+//		
+//		String ct;
+//		for(int i = 0; i < shotlist.size(); i++) {
+//			ct = Integer.toString(number) + Integer.toString(shotlist.get(i));
+//			set.add(ct);
+//			set.add(shotlist.get(i));
+//		}
+		
+//		System.out.println("set" + set);
+		
+		
+		return "temp";
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
 !STACK 0
-java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Display.getClickCount(int, int, long, long)" because "this.display" is null
-	at org.eclipse.swt.widgets.Widget.sendMouseEvent(Widget.java:1100)
-	at org.eclipse.swt.widgets.Widget.wmMouseMove(Widget.java:2103)
-	at org.eclipse.swt.widgets.Control.WM_MOUSEMOVE(Control.java:5328)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4807)
-	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
-	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:494)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2022-03-15 18:07:00.227
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:494)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-03-15 18:07:00.228
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:494)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-03-15 18:07:00.234
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package kr.shotline.rowdata.controller;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CdataGeneratorController {
+
+	@GetMapping("/cdata")
+	String makecdata() {
+		
+		int shot;
+		
+		//카운터명 
+		String[] counterId = {"LCM2020M10001", "LCM2020M10002", "LCM2020M10003", "LCM2020M10004", "LCM2020M10005", "LCM2020M10006","LCM2020M10007", "LCM2020M10008","LCM2020M10009", "LCM2020M10010", "LCM2020M10011","LCM2020M10012", "LCM2020M10013", "LCM2020M10014", "LCM2020M10015" };
+		List<String> timeList = new ArrayList<>();
+		List<String> firstShotTimeList = new ArrayList<>();
+		
+		//ct정수 15개 생성//////////////////////////
+		//ct소수 15개 생성//////////////////////////
+		int[] number = new int[15];		
+		int[] decimalPoint = new int[15];
+		
+		for(int i = 0; i < 15; i++) {
+			//6~8
+			number[i] = (int)((Math.random() * 3) + 6);
+			decimalPoint[i] = (int)((Math.random() * 5) + 0);
+			//0~4
+		}
+				
+		for(int i = 0; i < 15; i++){
+			System.out.print(number[i] + " ");
+		}
+		System.out.println();
+		
+		for(int i = 0; i < 15; i++){
+			System.out.print(decimalPoint[i] + " ");
+		}
+		System.out.println();
+		//////////////////////////////////////////
+		
+		//출력될 C/T 최대 개수 = 정기통신마다 변경
+		int ctMaxCounter;
+		//C/T 오차 범위
+		int errorRange;
+		//CT list
+		List<String> ctDatas = new ArrayList<>();
+		
+		//ct값 저장
+		Set<String> ctDataSet = new TreeSet<String>();
+		
+		
+		//final ct/shot row data
+		Map<String, Integer> ctAndShotRowDatas = new HashMap<>();
+		
+		//tempRowDatas
+		List<String> tempRowDatas = new ArrayList<>();
+		
+		double timeGap = 0;
+		for(int t = 0; t < 1; t++) {
+			System.out.println();
+			
+	        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
+			String dTime = "20210315080000";
+	        
+			
+//	        System.out.println ("시작시간 : " + dTime);
+	        Date date = null;
+			try {
+				date = simpleDateFormat.parse(dTime);
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+//			System.out.println ("시작시간 : " + date);
+	        Calendar cal = Calendar.getInstance();
+	        cal.setTime(date);
+	        
+	        double second = 0.000; // 2초
+	        
+	        for(int a = 0; a < 15; a++) {
+	        	firstShotTimeList.add(simpleDateFormat.format(cal.getTime()));
+	        }
+	        
+//	        System.out.println("firstShotTimeList" + firstShotTimeList);
+	        
+	        //수신주기 세팅
+	        if(t >= 0) {
+	        	timeGap += 3600.000;
+	        	cal.add(Calendar.SECOND, (int) timeGap);
+	        }
+	        
+	        for(int a = 0; a < 15; a++) {
+	        	timeList.add(simpleDateFormat.format(cal.getTime()));
+	        }
+//	        System.out.println(t + " 시작");
+			//여기서 시작시간 세팅
+			
+		//ct생성 
+		for(int i =0 ; i < decimalPoint.length; i++) {
+			
+			//0~4
+			ctMaxCounter = (int)((Math.random() * 4));
+//			System.out.println("출력될 C/T 최대 가짓수" + ctMaxCounter);
+			
+			//랜덤 선택 수
+			int baseCt = Integer.valueOf(number[i] + "" + decimalPoint[i]);
+			double fbaseCt = Math.round((baseCt*0.1) * 100)/100.0;
+			
+			System.out.println("baseCt(int) " + baseCt + "::" + "fbaseCt(float) " + fbaseCt);
+			
+			//shot
+//			shot = Math.round(600/ctNum);
+			shot = (int) Math.ceil(36000/baseCt);
+			
+//			System.out.println("shot : " + shot);
+			
+//			for(int a = 0; a < 10; a++) {
+//				//0~2
+//				System.out.println("randan test : " + (int)(Math.random() * 3));
+//			}
+//			for(int a = 0; a < 10; a++) {
+//				System.out.println("randan test : " + (int)((Math.random() * 5) + 0));
+//			}
+			
+			
+			//shot 당 ct생성
+			for(int j = 0; j < shot; j++) {
+				errorRange = (int)((Math.random() * 4));
+				
+				(int) Math.random() * 10
+				
+				ctDatas.add(Integer.toString(number[i]) + (decimalPoint[i] + errorRange));
+//				ctDatas.add(baseCt);
+			}
+//			System.out.println("ctDatas" + ctDatas);
+			
+			//shot 당 ct 중복제거
+			for(int h = 0; h < ctDatas.size(); h++) {
+				ctDataSet.add(ctDatas.get(h));
+			}
+//			System.out.println("CT set" + ctDataSet);
+			
+			//중복제거된 ct 항목별 카운트 후 ct shot 맵핑
+			int counter;
+			for(String ctTemp : ctDataSet) {
+				counter = 0;
+				for(String ctData : ctDatas) {
+					if(ctTemp.equals(ctData)) {
+						counter++;
+					}
+				}
+//				shotDatas.add(counter);
+//				System.out.println(ctTemp + " " + counter);
+				ctAndShotRowDatas.put(ctTemp, counter);
+			}
+			
+			String ctAndShotRowData = "";
+			int num = 0;
+			Iterator<String> keys = ctAndShotRowDatas.keySet().iterator();
+			int totalCountTime = 0;
+			
+			//ct.shot 전체 시간 계산
+			for(String key: ctAndShotRowDatas.keySet()) {
+				totalCountTime += Integer.valueOf(key)*ctAndShotRowDatas.get(key);
+//				System.out.println("totalCountTime????" + totalCountTime);
+			}
+
+//			System.out.println("totalCountTime" + totalCountTime);
+			
+			int subtractCount = 0;
+			if(totalCountTime > 36000) {
+				while(totalCountTime > 36000) {
+					totalCountTime -= (int)(baseCt) ;
+//					System.out.println("ctAndShotRowDatas.get(String.valueOf((int)(baseCt)))" + ctAndShotRowDatas.get(String.valueOf((int)(baseCt))));
+					ctAndShotRowDatas.put(String.valueOf((int)(baseCt)), ctAndShotRowDatas.get(String.valueOf((int)(baseCt))) -1);
+					subtractCount++;
+				}				
+//				System.out.println("초과 카운터" + subtractCount );
+				shot -= subtractCount;
+			}
+			
+//			System.out.println("totalCountTime" + Math.round((totalCountTime*0.1) * 100)/100.0);
+//			System.out.println("totalCountTime" + totalCountTime);
+			
+			//ct/shot data포멧 정리
+//			System.out.println("ctAndShotRowData" + ctAndShotRowDatas);
+			while(keys.hasNext() || num < 10) {
+				if(keys.hasNext()) {
+					String key = keys.next();
+					ctAndShotRowData += key + "/" + ctAndShotRowDatas.get(key);					
+				}else {
+					ctAndShotRowData += "*" + "/" + "*";
+				}
+				
+				if(num != 9) {
+					ctAndShotRowData += "/";
+				}
+				
+				num++;
+			}
+			
+//			System.out.println("진짜 shot" + shot);
+			
+			Date lastShotTime = null;
+			
+			try {
+				lastShotTime = simpleDateFormat.parse(timeList.get(i));
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+			cal.setTime(lastShotTime);
+			cal.add(Calendar.SECOND, -3600);
+			cal.add(Calendar.SECOND, (int)(totalCountTime*0.1));
+			
+//			System.out.println("simpleDateFormat.format(cal.getTime())" + simpleDateFormat.format(cal.getTime()) + " " + timeList.get(i));
+			
+			String smapleCdata = "at=CDATA&id="
+					+ "LTM2020KRL001" // 터미널변경
+					+ "/"
+					+ counterId[i]  //카운터변경 ccm
+					+ "&sc="
+					+ "40" // 변경
+					+ "&time="
+					+ simpleDateFormat.format(cal.getTime())// 변경 lastshottime
+					+ "/"
+					+ timeList.get(i) // 변경 수신시간
+					+ "&ci=N/"
+					+ "63" // 변경???
+					+ "/H&ctt="
+					+ ctAndShotRowData // 중요변경
+					+ "&rmi=1/0/19700101015959/19700101015959/Y&temp="
+					+ "*/*/*/*/*/"    // 변경 온도 c/t와 비슷
+					+ "20220310030302" // 변경온도 시각?
+					+ "/203&ei=22/N&sn=00524";  //2 시작 +2
+			
+			System.out.println("smapleCdata : " + smapleCdata);
+			
+			cal.clear();
+			ctAndShotRowDatas.clear();
+//			shotDatas.clear();
+			ctDatas.clear();
+			ctDataSet.clear();
+		}
+		System.out.println();
+		//다음시간 세팅?
+		timeList.clear();
+		}
+		
+//		List<Integer> shotlist = new ArrayList<Integer>();
+
+		
+//		for(int i = 0; i < shot; i++) {
+//			errorRange = (int)((Math.random() * CTNumber));
+//			shotlist.add(decimalPoint + errorRange);
+//		}		
+//		System.out.println("shotlist" + shotlist);
+//		
+//		String ct;
+//		for(int i = 0; i < shotlist.size(); i++) {
+//			ct = Integer.toString(number) + Integer.toString(shotlist.get(i));
+//			set.add(ct);
+//			set.add(shotlist.get(i));
+//		}
+		
+//		System.out.println("set" + set);
+		
+		
+		return "temp";
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findEnumConstructorTarget(JavaElementHyperlinkDetector.java:299)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:115)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
@@ -242,62 +2385,1093 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Display.g
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
 
-!ENTRY Activator 1 0 2022-03-13 18:20:09.100
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-03-15 18:07:00.235
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findEnumConstructorTarget(JavaElementHyperlinkDetector.java:299)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:115)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-03-15 18:07:00.235
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.findEnumConstructorTarget(JavaElementHyperlinkDetector.java:299)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:115)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-03-15 18:07:00.843
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package kr.shotline.rowdata.controller;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CdataGeneratorController {
+
+	@GetMapping("/cdata")
+	String makecdata() {
+		
+		int shot;
+		
+		//카운터명 
+		String[] counterId = {"LCM2020M10001", "LCM2020M10002", "LCM2020M10003", "LCM2020M10004", "LCM2020M10005", "LCM2020M10006","LCM2020M10007", "LCM2020M10008","LCM2020M10009", "LCM2020M10010", "LCM2020M10011","LCM2020M10012", "LCM2020M10013", "LCM2020M10014", "LCM2020M10015" };
+		List<String> timeList = new ArrayList<>();
+		List<String> firstShotTimeList = new ArrayList<>();
+		
+		//ct정수 15개 생성//////////////////////////
+		//ct소수 15개 생성//////////////////////////
+		int[] number = new int[15];		
+		int[] decimalPoint = new int[15];
+		
+		for(int i = 0; i < 15; i++) {
+			//6~8
+			number[i] = (int)((Math.random() * 3) + 6);
+			decimalPoint[i] = (int)((Math.random() * 5) + 0);
+			//0~4
+		}
+				
+		for(int i = 0; i < 15; i++){
+			System.out.print(number[i] + " ");
+		}
+		System.out.println();
+		
+		for(int i = 0; i < 15; i++){
+			System.out.print(decimalPoint[i] + " ");
+		}
+		System.out.println();
+		//////////////////////////////////////////
+		
+		//출력될 C/T 최대 개수 = 정기통신마다 변경
+		int ctMaxCounter;
+		//C/T 오차 범위
+		int errorRange;
+		//CT list
+		List<String> ctDatas = new ArrayList<>();
+		
+		//ct값 저장
+		Set<String> ctDataSet = new TreeSet<String>();
+		
+		
+		//final ct/shot row data
+		Map<String, Integer> ctAndShotRowDatas = new HashMap<>();
+		
+		//tempRowDatas
+		List<String> tempRowDatas = new ArrayList<>();
+		
+		double timeGap = 0;
+		for(int t = 0; t < 1; t++) {
+			System.out.println();
+			
+	        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
+			String dTime = "20210315080000";
+	        
+			
+//	        System.out.println ("시작시간 : " + dTime);
+	        Date date = null;
+			try {
+				date = simpleDateFormat.parse(dTime);
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+//			System.out.println ("시작시간 : " + date);
+	        Calendar cal = Calendar.getInstance();
+	        cal.setTime(date);
+	        
+	        double second = 0.000; // 2초
+	        
+	        for(int a = 0; a < 15; a++) {
+	        	firstShotTimeList.add(simpleDateFormat.format(cal.getTime()));
+	        }
+	        
+//	        System.out.println("firstShotTimeList" + firstShotTimeList);
+	        
+	        //수신주기 세팅
+	        if(t >= 0) {
+	        	timeGap += 3600.000;
+	        	cal.add(Calendar.SECOND, (int) timeGap);
+	        }
+	        
+	        for(int a = 0; a < 15; a++) {
+	        	timeList.add(simpleDateFormat.format(cal.getTime()));
+	        }
+//	        System.out.println(t + " 시작");
+			//여기서 시작시간 세팅
+			
+		//ct생성 
+		for(int i =0 ; i < decimalPoint.length; i++) {
+			
+			//0~4
+			ctMaxCounter = (int)((Math.random() * 4));
+//			System.out.println("출력될 C/T 최대 가짓수" + ctMaxCounter);
+			
+			//랜덤 선택 수
+			int baseCt = Integer.valueOf(number[i] + "" + decimalPoint[i]);
+			double fbaseCt = Math.round((baseCt*0.1) * 100)/100.0;
+			
+			System.out.println("baseCt(int) " + baseCt + "::" + "fbaseCt(float) " + fbaseCt);
+			
+			//shot
+//			shot = Math.round(600/ctNum);
+			shot = (int) Math.ceil(36000/baseCt);
+			
+//			System.out.println("shot : " + shot);
+			
+//			for(int a = 0; a < 10; a++) {
+//				//0~2
+//				System.out.println("randan test : " + (int)(Math.random() * 3));
+//			}
+//			for(int a = 0; a < 10; a++) {
+//				System.out.println("randan test : " + (int)((Math.random() * 5) + 0));
+//			}
+			
+			
+			//shot 당 ct생성
+			for(int j = 0; j < shot; j++) {
+				errorRange = (int)((Math.random() * 4));
+				
+				(int) Math.random() * 10
+				
+				ctDatas.add(Integer.toString(number[i]) + (decimalPoint[i] + errorRange));
+//				ctDatas.add(baseCt);
+			}
+//			System.out.println("ctDatas" + ctDatas);
+			
+			//shot 당 ct 중복제거
+			for(int h = 0; h < ctDatas.size(); h++) {
+				ctDataSet.add(ctDatas.get(h));
+			}
+//			System.out.println("CT set" + ctDataSet);
+			
+			//중복제거된 ct 항목별 카운트 후 ct shot 맵핑
+			int counter;
+			for(String ctTemp : ctDataSet) {
+				counter = 0;
+				for(String ctData : ctDatas) {
+					if(ctTemp.equals(ctData)) {
+						counter++;
+					}
+				}
+//				shotDatas.add(counter);
+//				System.out.println(ctTemp + " " + counter);
+				ctAndShotRowDatas.put(ctTemp, counter);
+			}
+			
+			String ctAndShotRowData = "";
+			int num = 0;
+			Iterator<String> keys = ctAndShotRowDatas.keySet().iterator();
+			int totalCountTime = 0;
+			
+			//ct.shot 전체 시간 계산
+			for(String key: ctAndShotRowDatas.keySet()) {
+				totalCountTime += Integer.valueOf(key)*ctAndShotRowDatas.get(key);
+//				System.out.println("totalCountTime????" + totalCountTime);
+			}
+
+//			System.out.println("totalCountTime" + totalCountTime);
+			
+			int subtractCount = 0;
+			if(totalCountTime > 36000) {
+				while(totalCountTime > 36000) {
+					totalCountTime -= (int)(baseCt) ;
+//					System.out.println("ctAndShotRowDatas.get(String.valueOf((int)(baseCt)))" + ctAndShotRowDatas.get(String.valueOf((int)(baseCt))));
+					ctAndShotRowDatas.put(String.valueOf((int)(baseCt)), ctAndShotRowDatas.get(String.valueOf((int)(baseCt))) -1);
+					subtractCount++;
+				}				
+//				System.out.println("초과 카운터" + subtractCount );
+				shot -= subtractCount;
+			}
+			
+//			System.out.println("totalCountTime" + Math.round((totalCountTime*0.1) * 100)/100.0);
+//			System.out.println("totalCountTime" + totalCountTime);
+			
+			//ct/shot data포멧 정리
+//			System.out.println("ctAndShotRowData" + ctAndShotRowDatas);
+			while(keys.hasNext() || num < 10) {
+				if(keys.hasNext()) {
+					String key = keys.next();
+					ctAndShotRowData += key + "/" + ctAndShotRowDatas.get(key);					
+				}else {
+					ctAndShotRowData += "*" + "/" + "*";
+				}
+				
+				if(num != 9) {
+					ctAndShotRowData += "/";
+				}
+				
+				num++;
+			}
+			
+//			System.out.println("진짜 shot" + shot);
+			
+			Date lastShotTime = null;
+			
+			try {
+				lastShotTime = simpleDateFormat.parse(timeList.get(i));
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+			cal.setTime(lastShotTime);
+			cal.add(Calendar.SECOND, -3600);
+			cal.add(Calendar.SECOND, (int)(totalCountTime*0.1));
+			
+//			System.out.println("simpleDateFormat.format(cal.getTime())" + simpleDateFormat.format(cal.getTime()) + " " + timeList.get(i));
+			
+			String smapleCdata = "at=CDATA&id="
+					+ "LTM2020KRL001" // 터미널변경
+					+ "/"
+					+ counterId[i]  //카운터변경 ccm
+					+ "&sc="
+					+ "40" // 변경
+					+ "&time="
+					+ simpleDateFormat.format(cal.getTime())// 변경 lastshottime
+					+ "/"
+					+ timeList.get(i) // 변경 수신시간
+					+ "&ci=N/"
+					+ "63" // 변경???
+					+ "/H&ctt="
+					+ ctAndShotRowData // 중요변경
+					+ "&rmi=1/0/19700101015959/19700101015959/Y&temp="
+					+ "*/*/*/*/*/"    // 변경 온도 c/t와 비슷
+					+ "20220310030302" // 변경온도 시각?
+					+ "/203&ei=22/N&sn=00524";  //2 시작 +2
+			
+			System.out.println("smapleCdata : " + smapleCdata);
+			
+			cal.clear();
+			ctAndShotRowDatas.clear();
+//			shotDatas.clear();
+			ctDatas.clear();
+			ctDataSet.clear();
+		}
+		System.out.println();
+		//다음시간 세팅?
+		timeList.clear();
+		}
+		
+//		List<Integer> shotlist = new ArrayList<Integer>();
+
+		
+//		for(int i = 0; i < shot; i++) {
+//			errorRange = (int)((Math.random() * CTNumber));
+//			shotlist.add(decimalPoint + errorRange);
+//		}		
+//		System.out.println("shotlist" + shotlist);
+//		
+//		String ct;
+//		for(int i = 0; i < shotlist.size(); i++) {
+//			ct = Integer.toString(number) + Integer.toString(shotlist.get(i));
+//			set.add(ct);
+//			set.add(shotlist.get(i));
+//		}
+		
+//		System.out.println("set" + set);
+		
+		
+		return "temp";
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-03-15 18:07:00.844
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-03-15 18:07:00.844
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-03-15 18:07:05.579
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package kr.shotline.rowdata.controller;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CdataGeneratorController {
+
+	@GetMapping("/cdata")
+	String makecdata() {
+		
+		int shot;
+		
+		//카운터명 
+		String[] counterId = {"LCM2020M10001", "LCM2020M10002", "LCM2020M10003", "LCM2020M10004", "LCM2020M10005", "LCM2020M10006","LCM2020M10007", "LCM2020M10008","LCM2020M10009", "LCM2020M10010", "LCM2020M10011","LCM2020M10012", "LCM2020M10013", "LCM2020M10014", "LCM2020M10015" };
+		List<String> timeList = new ArrayList<>();
+		List<String> firstShotTimeList = new ArrayList<>();
+		
+		//ct정수 15개 생성//////////////////////////
+		//ct소수 15개 생성//////////////////////////
+		int[] number = new int[15];		
+		int[] decimalPoint = new int[15];
+		
+		for(int i = 0; i < 15; i++) {
+			//6~8
+			number[i] = (int)((Math.random() * 3) + 6);
+			decimalPoint[i] = (int)((Math.random() * 5) + 0);
+			//0~4
+		}
+				
+		for(int i = 0; i < 15; i++){
+			System.out.print(number[i] + " ");
+		}
+		System.out.println();
+		
+		for(int i = 0; i < 15; i++){
+			System.out.print(decimalPoint[i] + " ");
+		}
+		System.out.println();
+		//////////////////////////////////////////
+		
+		//출력될 C/T 최대 개수 = 정기통신마다 변경
+		int ctMaxCounter;
+		//C/T 오차 범위
+		int errorRange;
+		//CT list
+		List<String> ctDatas = new ArrayList<>();
+		
+		//ct값 저장
+		Set<String> ctDataSet = new TreeSet<String>();
+		
+		
+		//final ct/shot row data
+		Map<String, Integer> ctAndShotRowDatas = new HashMap<>();
+		
+		//tempRowDatas
+		List<String> tempRowDatas = new ArrayList<>();
+		
+		double timeGap = 0;
+		for(int t = 0; t < 1; t++) {
+			System.out.println();
+			
+	        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
+			String dTime = "20210315080000";
+	        
+			
+//	        System.out.println ("시작시간 : " + dTime);
+	        Date date = null;
+			try {
+				date = simpleDateFormat.parse(dTime);
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+//			System.out.println ("시작시간 : " + date);
+	        Calendar cal = Calendar.getInstance();
+	        cal.setTime(date);
+	        
+	        double second = 0.000; // 2초
+	        
+	        for(int a = 0; a < 15; a++) {
+	        	firstShotTimeList.add(simpleDateFormat.format(cal.getTime()));
+	        }
+	        
+//	        System.out.println("firstShotTimeList" + firstShotTimeList);
+	        
+	        //수신주기 세팅
+	        if(t >= 0) {
+	        	timeGap += 3600.000;
+	        	cal.add(Calendar.SECOND, (int) timeGap);
+	        }
+	        
+	        for(int a = 0; a < 15; a++) {
+	        	timeList.add(simpleDateFormat.format(cal.getTime()));
+	        }
+//	        System.out.println(t + " 시작");
+			//여기서 시작시간 세팅
+			
+		//ct생성 
+		for(int i =0 ; i < decimalPoint.length; i++) {
+			
+			//0~4
+			ctMaxCounter = (int)((Math.random() * 4));
+//			System.out.println("출력될 C/T 최대 가짓수" + ctMaxCounter);
+			
+			//랜덤 선택 수
+			int baseCt = Integer.valueOf(number[i] + "" + decimalPoint[i]);
+			double fbaseCt = Math.round((baseCt*0.1) * 100)/100.0;
+			
+			System.out.println("baseCt(int) " + baseCt + "::" + "fbaseCt(float) " + fbaseCt);
+			
+			//shot
+//			shot = Math.round(600/ctNum);
+			shot = (int) Math.ceil(36000/baseCt);
+			
+//			System.out.println("shot : " + shot);
+			
+//			for(int a = 0; a < 10; a++) {
+//				//0~2
+//				System.out.println("randan test : " + (int)(Math.random() * 3));
+//			}
+//			for(int a = 0; a < 10; a++) {
+//				System.out.println("randan test : " + (int)((Math.random() * 5) + 0));
+//			}
+			
+			
+			//shot 당 ct생성
+			for(int j = 0; j < shot; j++) {
+				errorRange = (int)((Math.random() * 4));
+				
+				(int) Math.random() * 10
+				
+				ctDatas.add(Integer.toString(number[i]) + (decimalPoint[i] + errorRange));
+//				ctDatas.add(baseCt);
+			}
+//			System.out.println("ctDatas" + ctDatas);
+			
+			//shot 당 ct 중복제거
+			for(int h = 0; h < ctDatas.size(); h++) {
+				ctDataSet.add(ctDatas.get(h));
+			}
+//			System.out.println("CT set" + ctDataSet);
+			
+			//중복제거된 ct 항목별 카운트 후 ct shot 맵핑
+			int counter;
+			for(String ctTemp : ctDataSet) {
+				counter = 0;
+				for(String ctData : ctDatas) {
+					if(ctTemp.equals(ctData)) {
+						counter++;
+					}
+				}
+//				shotDatas.add(counter);
+//				System.out.println(ctTemp + " " + counter);
+				ctAndShotRowDatas.put(ctTemp, counter);
+			}
+			
+			String ctAndShotRowData = "";
+			int num = 0;
+			Iterator<String> keys = ctAndShotRowDatas.keySet().iterator();
+			int totalCountTime = 0;
+			
+			//ct.shot 전체 시간 계산
+			for(String key: ctAndShotRowDatas.keySet()) {
+				totalCountTime += Integer.valueOf(key)*ctAndShotRowDatas.get(key);
+//				System.out.println("totalCountTime????" + totalCountTime);
+			}
+
+//			System.out.println("totalCountTime" + totalCountTime);
+			
+			int subtractCount = 0;
+			if(totalCountTime > 36000) {
+				while(totalCountTime > 36000) {
+					totalCountTime -= (int)(baseCt) ;
+//					System.out.println("ctAndShotRowDatas.get(String.valueOf((int)(baseCt)))" + ctAndShotRowDatas.get(String.valueOf((int)(baseCt))));
+					ctAndShotRowDatas.put(String.valueOf((int)(baseCt)), ctAndShotRowDatas.get(String.valueOf((int)(baseCt))) -1);
+					subtractCount++;
+				}				
+//				System.out.println("초과 카운터" + subtractCount );
+				shot -= subtractCount;
+			}
+			
+//			System.out.println("totalCountTime" + Math.round((totalCountTime*0.1) * 100)/100.0);
+//			System.out.println("totalCountTime" + totalCountTime);
+			
+			//ct/shot data포멧 정리
+//			System.out.println("ctAndShotRowData" + ctAndShotRowDatas);
+			while(keys.hasNext() || num < 10) {
+				if(keys.hasNext()) {
+					String key = keys.next();
+					ctAndShotRowData += key + "/" + ctAndShotRowDatas.get(key);					
+				}else {
+					ctAndShotRowData += "*" + "/" + "*";
+				}
+				
+				if(num != 9) {
+					ctAndShotRowData += "/";
+				}
+				
+				num++;
+			}
+			
+//			System.out.println("진짜 shot" + shot);
+			
+			Date lastShotTime = null;
+			
+			try {
+				lastShotTime = simpleDateFormat.parse(timeList.get(i));
+			} catch (ParseException e) {
+				e.printStackTrace();
+			}
+			cal.setTime(lastShotTime);
+			cal.add(Calendar.SECOND, -3600);
+			cal.add(Calendar.SECOND, (int)(totalCountTime*0.1));
+			
+//			System.out.println("simpleDateFormat.format(cal.getTime())" + simpleDateFormat.format(cal.getTime()) + " " + timeList.get(i));
+			
+			String smapleCdata = "at=CDATA&id="
+					+ "LTM2020KRL001" // 터미널변경
+					+ "/"
+					+ counterId[i]  //카운터변경 ccm
+					+ "&sc="
+					+ "40" // 변경
+					+ "&time="
+					+ simpleDateFormat.format(cal.getTime())// 변경 lastshottime
+					+ "/"
+					+ timeList.get(i) // 변경 수신시간
+					+ "&ci=N/"
+					+ "63" // 변경???
+					+ "/H&ctt="
+					+ ctAndShotRowData // 중요변경
+					+ "&rmi=1/0/19700101015959/19700101015959/Y&temp="
+					+ "*/*/*/*/*/"    // 변경 온도 c/t와 비슷
+					+ "20220310030302" // 변경온도 시각?
+					+ "/203&ei=22/N&sn=00524";  //2 시작 +2
+			
+			System.out.println("smapleCdata : " + smapleCdata);
+			
+			cal.clear();
+			ctAndShotRowDatas.clear();
+//			shotDatas.clear();
+			ctDatas.clear();
+			ctDataSet.clear();
+		}
+		System.out.println();
+		//다음시간 세팅?
+		timeList.clear();
+		}
+		
+//		List<Integer> shotlist = new ArrayList<Integer>();
+
+		
+//		for(int i = 0; i < shot; i++) {
+//			errorRange = (int)((Math.random() * CTNumber));
+//			shotlist.add(decimalPoint + errorRange);
+//		}		
+//		System.out.println("shotlist" + shotlist);
+//		
+//		String ct;
+//		for(int i = 0; i < shotlist.size(); i++) {
+//			ct = Integer.toString(number) + Integer.toString(shotlist.get(i));
+//			set.add(ct);
+//			set.add(shotlist.get(i));
+//		}
+		
+//		System.out.println("set" + set);
+		
+		
+		return "temp";
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2022-03-15 18:07:05.580
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2022-03-15 18:07:05.580
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2031)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3795)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1943)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1974)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3052)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2970)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2991)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1231)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:820)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2022-03-15 18:08:44.393
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:20:09.686
+!ENTRY Activator 1 0 2022-03-15 18:08:44.915
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:21:00.034
+!ENTRY Activator 1 0 2022-03-15 18:09:52.107
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:21:00.617
+!ENTRY Activator 1 0 2022-03-15 18:09:52.626
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:22:01.955
+!ENTRY Activator 1 0 2022-03-15 18:11:01.129
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:22:02.538
+!ENTRY Activator 1 0 2022-03-15 18:11:01.648
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:24:22.498
+!ENTRY Activator 1 0 2022-03-15 18:11:20.385
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:24:23.124
+!ENTRY Activator 1 0 2022-03-15 18:11:21.371
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:25:41.265
+!ENTRY Activator 1 0 2022-03-15 18:20:45.111
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:25:41.857
+!ENTRY Activator 1 0 2022-03-15 18:20:45.632
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:26:12.211
+!ENTRY Activator 1 0 2022-03-15 18:22:38.188
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:26:12.789
+!ENTRY Activator 1 0 2022-03-15 18:22:38.760
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:26:39.461
+!ENTRY org.eclipse.lsp4e 2 0 2022-03-15 18:27:35.843
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-03-15 18:28:01.066
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:26:40.229
+!ENTRY Activator 1 0 2022-03-15 18:28:01.587
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:27:39.469
+!ENTRY Activator 1 0 2022-03-15 18:28:14.102
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2022-03-13 18:27:40.097
+!ENTRY Activator 1 0 2022-03-15 18:28:14.622
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 18:28:23.889
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GzNtSEOD
+!ENTRY Activator 1 0 2022-03-15 18:30:19.422
+!MESSAGE Has main method computation for project 'demo'
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 18:28:23.890
-!MESSAGE unsubscribing from classpath changes: sts4.classpath.GzNtSEOD
+!ENTRY Activator 1 0 2022-03-15 18:30:19.999
+!MESSAGE Has main method computation for project 'demo'
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 18:28:23.891
+!ENTRY Activator 1 0 2022-03-15 18:36:19.262
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:36:19.833
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:38:10.370
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:38:10.944
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:38:49.089
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:38:49.610
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:39:42.144
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:39:42.661
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:39:49.664
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:39:50.333
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:44:21.280
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:44:21.855
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:45:29.840
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:45:30.360
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:47:18.774
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:47:19.670
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:47:28.083
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2022-03-15 18:47:28.602
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 19:06:59.417
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ALmqGeVn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 19:06:59.418
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ALmqGeVn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 19:06:59.418
 !MESSAGE subsribers = {}
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-13 18:28:23.891
-!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GzNtSEOD => OK
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 19:06:59.418
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ALmqGeVn => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-03-15 19:06:59.635
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
